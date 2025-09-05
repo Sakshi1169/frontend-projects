@@ -24,7 +24,7 @@ Each project is inside its own folder with HTML, CSS, and  JavaScript files.
 🛠 Tech Stack : 
   1) HTML5
   2) CSS3
-  3 )(JavaScript will be added in upcoming projects)
+  3) JavaScript will be added in upcoming projects
 ---
 📌 Note
 
