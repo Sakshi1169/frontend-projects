@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-app">
+        <header>
+            <h1>My To-Do List</h1>
+            <p>Stay organized and boost productivity</p>
+        </header>
+
+        <section class="task-input">
+            <input type="text" id="task-input" placeholder="Enter a new task">
+            <button id="add-task-btn">Add Task</button>
+        </section>
+
+        <section class="task-filters">
+            <button class="filter-btn" data-filter="All">All</button>
+            <button class="filter-btn" data-filter="Active">Active</button>
+            <button class="filter-btn"data-filter="Completed">Completed</button>
+        </section>
+
+
+        <section class="task-list">
+            <ul class="task-list">
+
+                <!-- example input -->
+
+                <li>
+                    <input type="checkbox">
+                    <span>Sample Task 1</span>
+                    <button class="delete-btn">Delete</button>
+
+                </li>
+
+
+                <li>
+               <input type="checkbox" checked>
+                <span>Sample Task 2</span>
+                <button class="delete-btn">Delete</button>
+                </li>
+
+
+            </ul>
+
+        </section>
+
+        <footer>
+            <p>Total Tasks: <span class="task-count">2</span> </p>
+            <button class="clear-completed-btn">Clear Completed</button>
+
+        </footer>
+
+    </div>
+    
+</body>
+</html>
