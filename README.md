@@ -18,3 +18,16 @@ Each project is inside its own folder with HTML, CSS, and  JavaScript files.
 1. Clone this repository:
    ```bash
    git clone https://github.com/username/all-demo-projects.git
+2.Open any project folder (e.g., todo-list-ui).
+3.Run index.html file in your browser. 
+
+🛠 Tech Stack
+HTML5
+CSS3
+(JavaScript will be added in upcoming projects)
+
+📌 Note
+
+This repo is mainly for frontend practice.
+Important showcase projects will be maintained in separate repositories.
+   
