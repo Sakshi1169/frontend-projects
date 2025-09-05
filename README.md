@@ -21,11 +21,11 @@ Each project is inside its own folder with HTML, CSS, and  JavaScript files.
 2.Open any project folder (e.g., todo-list-ui).
 3.Run index.html file in your browser. 
 
-🛠 Tech Stack
-HTML5
-CSS3
-(JavaScript will be added in upcoming projects)
-
+🛠 Tech Stack : 
+  1) HTML5
+  2) CSS3
+  3 )(JavaScript will be added in upcoming projects)
+---
 📌 Note
 
 This repo is mainly for frontend practice.
