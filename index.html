@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Beauty salon</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <!-- header -->
+     <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Salon logo">
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#booking">Booking</a>
+            <a href="#contact">Contact</a>
+        </nav>
+     </header> 
+     
+     <!--hero section  -->
+     <section id="home"class="hero">
+        <h1>Welcome to Sakshi Beauty Studio</h1>
+        <p>Be your beautiful self.</p>
+        <a href="#booking" class="btn">Book Now</a>
+     </section>
+
+     <!-- Services section -->
+      <section id="services">
+        <h2>Our Services</h2>
+        <div class="Service-container">
+            <div class="Service-card">
+               <h3>Hair Styling</h3>
+               <p>Professional haircuts, coloring, and styling.</p>
+            </div>
+            <div class="Service-card">
+                <h3>Makeup</h3>
+                <p>Bridal, party, and casual makeup services.</p>
+            </div>
+            <div class="Service-card">
+                <h3>Nail Art</h3>
+                <p>Manicure, pedicure, and nail art designs.</p>
+            </div>
+        </div>
+
+      </section>
+
+      <!-- booking section -->
+       <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form id="booking-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <select  id="service" required>
+                <option value="">Select Service</option>
+                <option value="hair">Hair Styling</option>
+                <option value="makeup">Makeup</option>
+                <option value="nails">Nail Art</option>
+            </select>
+
+             <input type="date" id="date" required>
+            <input type="time" id="time" required>
+            <button type="submit">Book Now</button>
+
+        </form>
+
+       </section>
+
+       <!-- caontact section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email : sakshiBeauty@gmail.com</p>
+            <p>Phone : 9637335667</p>
+            <p> Main road kedgaon,pune,Maharashtra</p>
+
+        </section>
+
+        <!-- footer section -->
+         <footer>
+            <p> © 2025 Sakshi Beauty Salon. All rights reserved.</p>
+         </footer>
+
+         <script src="script.js"></script>
+         
+</body>
+</html>
